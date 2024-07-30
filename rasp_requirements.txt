@@ -3,3 +3,5 @@ cmake
 gflags==2.2.2
 glog==0.4.0
 eigen==3.3.7
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
